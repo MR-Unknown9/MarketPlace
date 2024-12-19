@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Replace the placeholders with your actual MongoDB Atlas credentials
 let connectDB = async function () {
-    await mongoose.connect('mongodb+srv://Bosha:bosha1111@studentsys.18odl.mongodb.net/StudentSystem?retryWrites=true&w=majority', {
+    await mongoose.connect('mongodb+srv://admin:admin@studentsys.18odl.mongodb.net/StudentSystem?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
